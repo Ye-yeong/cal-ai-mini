@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
-import withPWA from "next-pwa";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // PWA는 배포 시 문제가 될 수 있으므로 가장 안전한 기본 설정으로 복구
 };
 
-// PWA 설정을 잠시 비활성화하거나 Turbopack 호환성을 위해 수정
 export default nextConfig;
